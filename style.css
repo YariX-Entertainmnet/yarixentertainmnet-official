@@ -1,0 +1,198 @@
+@font-face {
+    font-family: yarix;
+    src: url(fonts/Orbitron-VariableFont_wght.ttf);
+}
+html{
+    scroll-behavior: smooth;
+    font-family: yarix;
+    color-scheme: dark;
+}
+body{
+    margin: 0;
+}
+.HNav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.63);
+}
+.HNav>ul>a{
+    color: white;
+    text-decoration: none;
+
+}
+.HNav>ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100px;
+    width: 65%;
+    margin-right: 50px;
+    font-size: 25px;
+}
+header{
+    background-image: url(images/banner.png);
+    background-size: 100%;
+    height: 750px;
+    width: 100%;
+}
+p{
+    margin: 0;
+}
+.title{
+    margin: 45px 25px 45px 25px;
+    font-size: 55px;
+}
+.GUp,.GImg{
+    width: 430px;
+    height: 220px;
+    border-radius: 15px 15px 0 0;
+}
+.GDown>a>input{
+    width: 400px;
+    height: 22px;
+    border-radius: 8px;
+    border-width: 0;
+    transition: 0.5s;
+    font-size: 15px;
+}
+.GDown>a{
+    color: white;
+    text-decoration: none;
+}
+.GDown{
+    width: 430px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 5px gray;
+    border-width: 0 5px 5px;
+    border-radius: 0 0 15px 15px;
+    padding: 5px 0 5px 0;
+}
+.GUp{
+    border: solid 5px gray;
+    border-width: 5px;
+   
+}
+.logo{
+    height: 150px;
+    width: 195px;
+}
+.GCenter{
+    border: solid 5px gray;
+    border-width: 0 5px 5px 5px;
+    width: 430px;
+    padding: 5px 0 5px 0;
+}
+.GDown>a>input:hover{
+    width: 415px;
+    height: 27px;
+    border-radius: 23px;
+    border-width: 0;
+    font-size: 18px;
+}
+.games,.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 55px;
+
+}
+.games>a{
+    color: white;
+    text-decoration: none;
+}
+.Games>a>input:hover{
+    width: 415px;
+    height: 32px;
+    border-radius: 23px;
+    border-width: 0;
+    font-size: 18px;
+}
+.Games>a>input{
+    width: 400px;
+    height: 27px;
+    border-radius: 8px;
+    border-width: 0;
+    transition: 0.5s;
+    font-size: 15px;
+    margin-top: 55px;
+}
+.AText{
+    font-size: 25px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.gamesblocks{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.integration{
+    height: 90px;
+    width: 90px;
+    border-radius: 90px;
+    transition: 0.5s;
+    margin: 10px;
+}
+.integration:hover{
+    height: 110px;
+    width: 110px;
+    border-radius: 110px;
+}
+.reddit{
+    background-image: url(images/reddit_icon_texture.png);
+    background-size: 100%;
+}
+.boosty{
+    background-image: url(images/boosty_ico_texture.png);
+    background-size: 100%;
+}
+.patreon{
+    background-image: url(images/patreon_ico_texture.png);
+    background-size: 100%;
+}
+.twitch{
+    background-image: url(images/twitch_icon.png);
+    background-size: 100%;
+}
+
+.ds{
+    background-image: url(images/Dicrod_icon.png);
+    background-size: 100%;
+}
+.x{
+    background-image: url(images/x-icon.avif);
+    background-size: 100%;
+}
+.insta{
+    background-image: url(images/insta_icon_texture.png);
+    background-size: 100%;
+}
+.youtube{
+    background-image: url(images/yt_icon.png);
+    background-size: 100%;
+}
+.tg{
+    background-image: url(images/Telegram_icon.png);
+    background-size: 100%;
+}
+.integrations{
+    display: flex;
+}
+footer{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 300px;
+    margin-top: 55px;
+}

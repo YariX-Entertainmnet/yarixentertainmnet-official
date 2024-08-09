@@ -1,0 +1,108 @@
+@font-face {
+    font-family: yarix;
+    src: url(fonts/Orbitron-VariableFont_wght.ttf);
+}
+html{
+    font-family: yarix;
+    color: white;
+    color-scheme: dark;
+}
+header{
+    width: 100%;
+    height: 700px;
+    background-image: url(images/labirinth\ banner.png);
+    background-size: 100%;
+}
+body{
+    margin: 0;
+}
+.integration{
+    height: 90px;
+    width: 90px;
+    border-radius: 90px;
+    transition: 0.5s;
+    margin: 10px;
+}
+.integration:hover{
+    height: 110px;
+    width: 110px;
+    border-radius: 110px;
+}
+main>a{
+    text-decoration: none;
+    color: white;
+}
+main>a>input{
+    background-image: url(images/try);
+}
+.reddit{
+    background-image: url(images/reddit_icon_texture.png);
+    background-size: 100%;
+}
+.boosty{
+    background-image: url(images/boosty_ico_texture.png);
+    background-size: 100%;
+}
+.patreon{
+    background-image: url(images/patreon_ico_texture.png);
+    background-size: 100%;
+}
+.twitch{
+    background-image: url(images/twitch_icon.png);
+    background-size: 100%;
+}
+
+.ds{
+    background-image: url(images/Dicrod_icon.png);
+    background-size: 100%;
+}
+.x{
+    background-image: url(images/x-icon.avif);
+    background-size: 100%;
+}
+.insta{
+    background-image: url(images/insta_icon_texture.png);
+    background-size: 100%;
+}
+.youtube{
+    background-image: url(images/yt_icon.png);
+    background-size: 100%;
+}
+.tg{
+    background-image: url(images/Telegram_icon.png);
+    background-size: 100%;
+}
+.integrations{
+    display: flex;
+}
+footer{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 300px;
+    margin-top: 55px;
+}
+.title{
+    font-size: 55px;
+    margin: 10px 25px 25px 25px;
+}
+.text{
+    font-size: 35px;
+}
+.imgrow{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main>img{
+    width: 250px;
+    height: 250px;
+    margin :25px; 
+}

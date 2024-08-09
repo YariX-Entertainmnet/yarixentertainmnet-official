@@ -1,0 +1,131 @@
+@font-face {
+    font-family: yarix;
+    src: url(fonts/Orbitron-VariableFont_wght.ttf);
+}
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+html{
+    color-scheme: dark;
+    font-family: yarix;
+}
+.title{
+    margin: 45px 25px 45px 25px;
+    font-size: 55px;
+}
+.GUp,.GImg{
+    width: 430px;
+    height: 220px;
+    border-radius: 15px 15px 0 0;
+}
+.GDown>a>input{
+    width: 400px;
+    height: 22px;
+    border-radius: 8px;
+    border-width: 0;
+    transition: 0.5s;
+    font-size: 15px;
+}
+.GDown>a{
+    color: white;
+    text-decoration: none;
+}
+.GDown{
+    width: 430px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 5px gray;
+    border-width: 0 5px 5px;
+    border-radius: 0 0 15px 15px;
+    padding: 5px 0 5px 0;
+}
+.GUp{
+    border: solid 5px gray;
+    border-width: 5px;
+   
+}
+.GCenter{
+    border: solid 5px gray;
+    border-width: 0 5px 5px 5px;
+    width: 430px;
+    padding: 5px 0 5px 0;
+}
+.GDown>a>input:hover{
+    width: 415px;
+    height: 27px;
+    border-radius: 23px;
+    border-width: 0;
+    font-size: 18px;
+}
+.gameblock{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.integration{
+    height: 90px;
+    width: 90px;
+    border-radius: 90px;
+    transition: 0.5s;
+    margin: 10px;
+}
+.integration:hover{
+    height: 110px;
+    width: 110px;
+    border-radius: 110px;
+}
+.reddit{
+    background-image: url(images/reddit_icon_texture.png);
+    background-size: 100%;
+}
+.boosty{
+    background-image: url(images/boosty_ico_texture.png);
+    background-size: 100%;
+}
+.patreon{
+    background-image: url(images/patreon_ico_texture.png);
+    background-size: 100%;
+}
+.twitch{
+    background-image: url(images/twitch_icon.png);
+    background-size: 100%;
+}
+
+.ds{
+    background-image: url(images/Dicrod_icon.png);
+    background-size: 100%;
+}
+.x{
+    background-image: url(images/x-icon.avif);
+    background-size: 100%;
+}
+.insta{
+    background-image: url(images/insta_icon_texture.png);
+    background-size: 100%;
+}
+.youtube{
+    background-image: url(images/yt_icon.png);
+    background-size: 100%;
+}
+.tg{
+    background-image: url(images/Telegram_icon.png);
+    background-size: 100%;
+}
+.integrations{
+    display: flex;
+}
+footer{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 300px;
+    margin-top: 55px;
+    width: 100%;
+}
